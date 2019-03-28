@@ -1,0 +1,4 @@
+cn\itsource\config\Swagger2.class
+cn\itsource\PlatServiceApplication.class
+cn\itsource\web\controller\UserController.class
+cn\itsource\domain\User.class

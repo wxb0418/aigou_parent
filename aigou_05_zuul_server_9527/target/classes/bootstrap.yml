@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:1299 #配置服务器
+      label: master #分支
+      name: zuul_application #github上面名称
+      profile: dev #环境，这里写死了
+      #profile: ${spring.actives.profile} #获取运行时的参数

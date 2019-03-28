@@ -1,0 +1,4 @@
+cn\itsource\config\SwaggerConfig.class
+cn\itsource\ZuulApplication.class
+cn\itsource\web\controller\ControllerTest.class
+cn\itsource\config\DocumentationConfig.class

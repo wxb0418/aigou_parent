@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aigou_01_eureka_server_7001" />
+        <module name="aigou_02_palt_interface" />
+        <module name="aigou_02_plat_service_provider_8001" />
+        <module name="aigou_03_config_server_1299" />
+        <module name="aigou_04_basic_util" />
+        <module name="aigou_05_zuul_server_9527" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="aigou_01_eureka_server_7001" target="1.5" />
+      <module name="aigou_02_palt_interface" target="1.5" />
+      <module name="aigou_02_plat_parent" target="1.5" />
+      <module name="aigou_02_plat_service_provider_8001" target="1.5" />
+      <module name="aigou_03_config_server_1299" target="1.5" />
+      <module name="aigou_04_basic_parent" target="1.5" />
+      <module name="aigou_04_basic_util" target="1.5" />
+      <module name="aigou_05_zuul_server_9527" target="1.7" />
+      <module name="aigou_parent" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+  </component>
+</project>
