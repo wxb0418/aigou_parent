@@ -1,0 +1,29 @@
+spring:
+  profiles:
+    active: dev
+---
+server:
+  port: 8011
+spring:
+  application:
+    name: PRODUCT-PROVIDER
+  profiles: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    prefer-ip-address: true
+---
+server:
+  port: 8012
+spring:
+  application:
+    name: PRODUCT-PROVIDER-TEST
+  profiles: test
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+prefer-ip-address: true

@@ -1,7 +1,7 @@
 package cn.itsource.web.controller;
 
 import cn.itsource.domain.User;
-import cn.itsource.json.AjaxResult;
+import cn.itsource.utils.AjaxResult;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
