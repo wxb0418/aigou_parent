@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>aigou_product_interface</module>
-        <module>aigou_product_service</module>
+        <module>aigou_product_service_8011</module>
     </modules>
 
 

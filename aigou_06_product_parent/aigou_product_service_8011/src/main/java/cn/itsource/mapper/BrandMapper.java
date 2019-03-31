@@ -11,6 +11,7 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * @author wxb
  * @since 2019-03-30
  */
+
 public interface BrandMapper extends BaseMapper<Brand> {
 
 }

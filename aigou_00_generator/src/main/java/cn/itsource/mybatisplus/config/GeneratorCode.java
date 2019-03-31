@@ -78,7 +78,7 @@ public class GeneratorCode {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 //E:\\software\\ideaIU\\work_space\\mybatis_plus_parent\\mybatis_plus_generator\\src\\main
-                return rb.getString("OutputDirBase")+ "/cn/itsourc/domain/" + tableInfo.getEntityName() + ".java";
+                return rb.getString("OutputDirBase")+ "/cn/itsource/domain/" + tableInfo.getEntityName() + ".java";
             }
         });
         // 调整 controller 生成目录演示
