@@ -1,10 +1,13 @@
 package cn.itsource.base;
 
 public class BaseQuery {
-    private Integer page = 0;
+    private Integer page = 1;
     private Integer rows = 10;
     private String keyword;
 
+    public Integer getStart() {
+        return (page-1)*rows;
+    }
     public Integer getPage() {
         return page;
     }

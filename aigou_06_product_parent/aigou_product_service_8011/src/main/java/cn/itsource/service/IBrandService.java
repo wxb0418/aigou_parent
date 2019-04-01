@@ -1,6 +1,8 @@
 package cn.itsource.service;
 
 import cn.itsource.domain.Brand;
+import cn.itsource.query.BrandQuery;
+import cn.itsource.utils.PageList;
 import com.baomidou.mybatisplus.service.IService;
 
 /**
@@ -13,4 +15,6 @@ import com.baomidou.mybatisplus.service.IService;
  */
 public interface IBrandService extends IService<Brand> {
 
+
+    PageList<Brand> queryPage(BrandQuery query);
 }

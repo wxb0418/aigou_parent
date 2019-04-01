@@ -5,7 +5,6 @@ import cn.itsource.query.BrandQuery;
 import cn.itsource.service.IBrandService;
 import cn.itsource.utils.AjaxResult;
 import cn.itsource.utils.PageList;
-import com.baomidou.mybatisplus.plugins.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -81,8 +80,9 @@ public class BrandController {
     @RequestMapping(value = "/json",method = RequestMethod.POST)
     public PageList<Brand> json(@RequestBody BrandQuery query)
     {
-        Page<Brand> page = new Page<Brand>(query.getPage(),query.getRows());
-            page = brandService.selectPage(page);
-            return new PageList<Brand>(page.getTotal(),page.getRecords());
+        //Page<Brand> page = new Page<Brand>(query.getPage(),query.getRows());
+            //page = brandService.selectPage(page);
+            //return new PageList<Brand>(page.getTotal(),page.getRecords());
+        return brandService.queryPage(query);
     }
 }

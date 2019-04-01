@@ -20,5 +20,31 @@
     <sql id="Base_Column_List">
         id, createTime, updateTime, name, englishName, firstLetter, description, productTypeId, sortIndex, logo
     </sql>
+    <select id="queryPageCount" resultType="long" parameterType="cn.itsource.query.BrandQuery" >
+        SELECT
+	      count( b.id )
+        FROM
+	      t_brand b
+	    LEFT JOIN t_product_type p ON b.productTypeId = p.id
+	    <include refid="whereSql"/>
+    </select>
+    
+    <select id="queryPageList" resultType="cn.itsource.domain.Brand" parameterType="cn.itsource.query.BrandQuery">
+        SELECT
+	      b.*
+        FROM
+	      t_brand b
+	    LEFT JOIN t_product_type p ON b.productTypeId = p.id
+	    <include refid="whereSql"/>
+        limit #{start},#{rows}
+    </select>
+    
+    <sql id="whereSql">
+        <where>
+            <if test="keyword !=null and keyword != '' ">
+                b.name LIKE concat ('%',#{keyword},'%') OR b.description LIKE concat ('%',#{keyword},'%')
+            </if>
+        </where>
+    </sql>
 
 </mapper>
