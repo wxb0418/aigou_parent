@@ -1,5 +1,6 @@
 package cn.itsource.domain;
 
+import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.enums.IdType;
 import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.activerecord.Model;
@@ -45,6 +46,9 @@ public class Brand extends Model<Brand> {
      * 品牌LOGO
      */
     private String logo;
+    @TableField(exist = false)
+    private ProductType productType;
+
 
 
     public Long getId() {
@@ -132,19 +136,28 @@ public class Brand extends Model<Brand> {
         return this.id;
     }
 
+    public ProductType getProductType() {
+        return productType;
+    }
+
+    public void setProductType(ProductType productType) {
+        this.productType = productType;
+    }
+
     @Override
     public String toString() {
         return "Brand{" +
-        ", id=" + id +
-        ", createTime=" + createTime +
-        ", updateTime=" + updateTime +
-        ", name=" + name +
-        ", englishName=" + englishName +
-        ", firstLetter=" + firstLetter +
-        ", description=" + description +
-        ", productTypeId=" + productTypeId +
-        ", sortIndex=" + sortIndex +
-        ", logo=" + logo +
-        "}";
+                "id=" + id +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", name='" + name + '\'' +
+                ", englishName='" + englishName + '\'' +
+                ", firstLetter='" + firstLetter + '\'' +
+                ", description='" + description + '\'' +
+                ", productTypeId=" + productTypeId +
+                ", sortIndex=" + sortIndex +
+                ", logo='" + logo + '\'' +
+                ", productType=" + productType +
+                '}';
     }
 }

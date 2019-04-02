@@ -15,7 +15,7 @@ public class DocumentationConfig implements SwaggerResourcesProvider {
         List resources = new ArrayList<>();
         resources.add(swaggerResource("用户系统", "/aigou/aigouUser/v2/api-docs", "2.0"));
         resources.add(swaggerResource("商品系统", "/aigou/aigouProduct/v2/api-docs", "2.0"));
-        resources.add(swaggerResource("基础系统", "/aigou/common/v2/api-docs", "2.0"));
+        resources.add(swaggerResource("基础系统", "/aigou/aigouCommon/v2/api-docs", "2.0"));
         return resources;
     }
 

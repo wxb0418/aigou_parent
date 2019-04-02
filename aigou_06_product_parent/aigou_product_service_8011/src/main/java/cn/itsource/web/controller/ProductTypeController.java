@@ -93,4 +93,12 @@ public class ProductTypeController {
         //    return new PageList<ProductType>(page.getTotal(),page.getRecords());
         return productTypeService.treeData();
     }
+    @RequestMapping(value = "/treeDataLoop",method = RequestMethod.POST)
+    public List<ProductType> treeDataLoop()
+    {
+        //Page<ProductType> page = new Page<ProductType>(query.getPage(),query.getRows());
+        //    page = productTypeService.selectPage(page);
+        //    return new PageList<ProductType>(page.getTotal(),page.getRecords());
+        return productTypeService.treeDataLoop();
+    }
 }

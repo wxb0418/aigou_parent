@@ -16,6 +16,7 @@
         <module>aigou_05_zuul_server_9527</module>
         <module>aigou_06_product_parent</module>
         <module>aigou_00_generator</module>
+        <module>aigou_07_common</module>
     </modules>
 
     <properties>

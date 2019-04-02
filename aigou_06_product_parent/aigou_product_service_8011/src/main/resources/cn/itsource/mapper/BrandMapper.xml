@@ -20,7 +20,7 @@
     <sql id="Base_Column_List">
         id, createTime, updateTime, name, englishName, firstLetter, description, productTypeId, sortIndex, logo
     </sql>
-    <select id="queryPageCount" resultType="long" parameterType="cn.itsource.query.BrandQuery" >
+    <select id="queryPageCount" resultType="java.lang.Long" parameterType="cn.itsource.query.BrandQuery" >
         SELECT
 	      count( b.id )
         FROM

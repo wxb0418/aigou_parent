@@ -30,5 +30,5 @@ public interface BrandMapper extends BaseMapper<Brand> {
      * @param query
      * @return
      */
-    long queryPageCount( BrandQuery query);
+    Long queryPageCount( BrandQuery query);
 }
