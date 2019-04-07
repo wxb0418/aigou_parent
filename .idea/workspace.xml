@@ -1,77 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2402bc7-fbbc-4d5d-bcab-e75ce3afc1a8" name="Default" comment="全部idea提交">
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/common/redis/service/PagesClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/common/redis/service/PagesClientFallBackFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/common/redis/service/RedisClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/web/controller/PagesController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/web/controller/RedisController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/resources/fastdfs_client.conf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/test/java/cn/itsource/client/web/controller/RedisControllerTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou_00_generator/src/main/java/cn/itsource/mybatisplus/config/GeneratorCode.java" afterPath="$PROJECT_DIR$/aigou_00_generator/src/main/java/cn/itsource/mybatisplus/config/GeneratorCode.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_00_generator/src/main/resources/templates/controller.java.vm" afterPath="$PROJECT_DIR$/aigou_00_generator/src/main/resources/templates/controller.java.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_00_generator/src/main/resources/templates/query.java.vm" afterPath="$PROJECT_DIR$/aigou_00_generator/src/main/resources/templates/query.java.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_00_generator/target/classes/cn/itsource/mybatisplus/config/GeneratorCode.class" afterPath="$PROJECT_DIR$/aigou_00_generator/target/classes/cn/itsource/mybatisplus/config/GeneratorCode.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_00_generator/target/classes/templates/controller.java.vm" afterPath="$PROJECT_DIR$/aigou_00_generator/target/classes/templates/controller.java.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_00_generator/target/classes/templates/query.java.vm" afterPath="$PROJECT_DIR$/aigou_00_generator/target/classes/templates/query.java.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_04_basic_parent/aigou_04_basic_util/src/main/java/cn/itsource/constants/GlobalConstants.java" afterPath="$PROJECT_DIR$/aigou_04_basic_parent/aigou_04_basic_util/src/main/java/cn/itsource/constants/GlobalConstants.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_05_zuul_server_9527/src/main/java/cn/itsource/web/controller/ControllerTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_05_zuul_server_9527/target/classes/cn/itsource/web/controller/ControllerTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_interface/src/main/java/cn/itsource/domain/ProductType.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_interface/src/main/java/cn/itsource/domain/ProductType.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_interface/target/classes/cn/itsource/domain/ProductType.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_interface/target/classes/cn/itsource/domain/ProductType.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/aigou_product_service_8011.iml" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/aigou_product_service_8011.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/pom.xml" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/ProductServiceApplication.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/ProductServiceApplication.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/mapper/ProductTypeMapper.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/mapper/ProductTypeMapper.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/service/impl/BrandServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/service/impl/ProductTypeServiceImpl.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/service/impl/ProductTypeServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/web/controller/BrandController.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/web/controller/BrandController.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/web/controller/ProductTypeController.java" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/java/cn/itsource/web/controller/ProductTypeController.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/resources/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/resources/cn/itsource/mapper/BrandMapper.xml" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/resources/cn/itsource/mapper/BrandMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/bootstrap.yml" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/ProductServiceApplication.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/ProductServiceApplication.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/ProductTypeQuery.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/ProductTypeQuery.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/config/MybatisPlusConfig.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/config/MybatisPlusConfig.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/mapper/BrandMapper.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/mapper/BrandMapper.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/mapper/ProductTypeMapper.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/mapper/ProductTypeMapper.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/query/BrandQuery.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/query/BrandQuery.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/IBrandService.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/IBrandService.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/IProductTypeService.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/IProductTypeService.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/impl/BrandServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/impl/ProductTypeServiceImpl.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/service/impl/ProductTypeServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/swagger/Swagger2.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/swagger/Swagger2.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/web/controller/BrandController.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/web/controller/BrandController.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/web/controller/ProductTypeController.class" afterPath="$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/target/classes/cn/itsource/web/controller/ProductTypeController.class" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/aigou_common_interface.iml" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/aigou_common_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/pom.xml" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/redis/PageClient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/redis/PageClientFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/redis/RedisClient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/redis/RedisClientFactory.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/java/cn/itsource/common/redis/service/RedisClientFallBackFactory.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home/common-footer.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-footer.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home/common-header-top.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-header-top.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home/common-header.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-header.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home/common-link.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-link.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home/common-nav.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-nav.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/home/common-right-sidebar.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-right-sidebar.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/template/product.type.vm" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/product.type.vm" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/aigou_common_service.iml" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/aigou_common_service.iml" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/pom.xml" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/RedisApllication.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/RedisApplication.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/swagger/Swagger2.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/swagger/Swagger2.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/utils/FastDfsApiOpr.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/utils/FastDfsApiOpr.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/utils/RedisUtil.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/utils/RedisUtil.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/utils/VelocityUtils.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/utils/VelocityUtils.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/web/controller/FastDfsController.java" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/client/web/controller/FastDfsController.java" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/web/controller/PageController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/java/cn/itsource/redis/web/controller/RedisController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/aigou_07_common/aigou_common_service/src/main/resources/application.yml" />
-    </list>
+    <list default="true" id="c2402bc7-fbbc-4d5d-bcab-e75ce3afc1a8" name="Default" comment="全部idea提交" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/aigou_02_plat_parent/target/" />
@@ -898,18 +828,6 @@
             <path>
               <item name="aigou_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="aigou_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou_06_product_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="aigou_product_service_8011" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="cn" type="462c0819:PsiDirectoryNode" />
-              <item name="itsource" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aigou_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aigou_parent" type="462c0819:PsiDirectoryNode" />
               <item name="aigou_07_common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1277,7 +1195,7 @@
       <workItem from="1554430871158" duration="9671000" />
       <workItem from="1554475047177" duration="1873000" />
       <workItem from="1554517306075" duration="9915000" />
-      <workItem from="1554603028328" duration="1797000" />
+      <workItem from="1554603028328" duration="1953000" />
     </task>
     <task id="LOCAL-00001" summary="全部idea提交">
       <created>1554080174178</created>
@@ -1326,7 +1244,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167621000" />
+    <option name="totallyTimeSpent" value="167777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -1354,7 +1272,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3809524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21748401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21268657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1451,13 +1369,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aigou_07_common/aigou_common_interface/src/main/resources/template/home/common-nav.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aigou_04_basic_parent/aigou_04_basic_util/src/main/java/cn/itsource/constants/GlobalConstants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1839,6 +1750,17 @@
         <state relative-caret-position="66">
           <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aigou_06_product_parent/aigou_product_service_8011/src/main/resources/cn/itsource/mapper/BrandMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1554221486781" expanded="true" signature="2080:2195" ph="SELECT count... t_brand" />
+            <marker date="1554221486781" expanded="true" signature="2354:2659" ph="SELECT b.id,... t_brand" />
+          </folding>
         </state>
       </provider>
     </entry>
