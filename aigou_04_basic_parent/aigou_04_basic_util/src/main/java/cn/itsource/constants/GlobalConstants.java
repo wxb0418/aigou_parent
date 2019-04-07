@@ -19,4 +19,8 @@ public class GlobalConstants {
     public static final String PAGE_TEMPLATE_HTML="page_template_html";
 
 
+    //home中的数据模板的key值staticRoot
+    public static final String STATICROOT_KEY="staticRoot";
+
+
 }

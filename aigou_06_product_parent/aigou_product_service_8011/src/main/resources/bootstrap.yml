@@ -6,3 +6,4 @@ spring:
       name: product_provider_application #github上面名称
       profile: dev #环境，这里写死了
       #profile: ${spring.actives.profile} #获取运行时的参数
+

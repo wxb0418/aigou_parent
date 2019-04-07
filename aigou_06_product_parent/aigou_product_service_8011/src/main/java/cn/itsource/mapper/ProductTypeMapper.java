@@ -13,5 +13,5 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  */
 public interface ProductTypeMapper extends BaseMapper<ProductType> {
 
-    //PageList<ProductType> treeData();
+
 }

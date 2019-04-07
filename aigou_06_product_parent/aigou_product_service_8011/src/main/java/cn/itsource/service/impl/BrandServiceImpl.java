@@ -4,11 +4,14 @@ import cn.itsource.domain.Brand;
 import cn.itsource.mapper.BrandMapper;
 import cn.itsource.query.BrandQuery;
 import cn.itsource.service.IBrandService;
+import cn.itsource.utils.LetterUtil;
 import cn.itsource.utils.PageList;
+import com.baomidou.mybatisplus.mapper.Wrapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -35,5 +38,29 @@ public class BrandServiceImpl extends ServiceImpl<BrandMapper, Brand> implements
             List<Brand> list = brandMapper.queryPageList(query);
             return new PageList<Brand>(total,list);
         }
+    }
+
+    /**
+     * 重写添加方法，添加创建时间和首字符
+     * @param entity
+     * @return
+     */
+    @Override
+    public boolean insert(Brand entity) {
+        entity.setCreateTime(new Date().getTime());
+        entity.setFirstLetter(LetterUtil.getFirstLetter(entity.getName()));
+        return super.insert(entity);
+    }
+
+    /**
+     * 重写更新方法，更新时间和首字符
+     * @param entity
+     * @return
+     */
+    @Override
+    public boolean updateById(Brand entity) {
+        entity.setUpdateTime(new Date().getTime());
+        entity.setFirstLetter(LetterUtil.getFirstLetter(entity.getName()));
+        return super.updateById(entity);
     }
 }

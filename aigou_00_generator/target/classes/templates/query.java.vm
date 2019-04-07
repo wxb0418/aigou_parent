@@ -1,6 +1,6 @@
-package cn.itsource;
+package cn.itsource.query;
 
-
+import cn.itsource.base.BaseQuery
 /**
  *
  * @author ${author}

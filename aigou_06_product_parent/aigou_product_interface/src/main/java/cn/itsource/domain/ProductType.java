@@ -28,7 +28,7 @@ public class ProductType extends Model<ProductType> {
     private Long updateTime;
 
     @TableField(exist = false)
-    private List<ProductType> childrenList = new ArrayList<ProductType>();
+    private List<ProductType> children = new ArrayList<ProductType>();
 
     /**
      * 类型名
@@ -171,12 +171,13 @@ public class ProductType extends Model<ProductType> {
         this.typeTemplateId = typeTemplateId;
     }
 
-    public List<ProductType> getChildrenList() {
-        return childrenList;
+
+    public List<ProductType> getChildren() {
+        return children;
     }
 
-    public void setChildrenList(List<ProductType> childrenList) {
-        this.childrenList = childrenList;
+    public void setChildren(List<ProductType> children) {
+        this.children = children;
     }
 
     @Override
@@ -190,7 +191,7 @@ public class ProductType extends Model<ProductType> {
                 "id=" + id +
                 ", createTime=" + createTime +
                 ", updateTime=" + updateTime +
-                ", childrenList=" + childrenList +
+                ", children=" + children +
                 ", name='" + name + '\'' +
                 ", pid=" + pid +
                 ", logo='" + logo + '\'' +

@@ -32,12 +32,12 @@
       <module name="aigou_05_zuul_server_9527" target="1.7" />
       <module name="aigou_06_product_parent" target="1.5" />
       <module name="aigou_07_common" target="1.5" />
-      <module name="aigou_common_interface" target="1.6" />
-      <module name="aigou_common_service" target="1.6" />
+      <module name="aigou_common_interface" target="1.8" />
+      <module name="aigou_common_service" target="1.8" />
       <module name="aigou_parent" target="1.5" />
       <module name="aigou_product_interface" target="1.5" />
       <module name="aigou_product_service" target="1.5" />
-      <module name="aigou_product_service_8011" target="1.7" />
+      <module name="aigou_product_service_8011" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

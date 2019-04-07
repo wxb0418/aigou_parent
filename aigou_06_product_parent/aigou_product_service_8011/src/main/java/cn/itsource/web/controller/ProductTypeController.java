@@ -85,12 +85,9 @@ public class ProductTypeController {
             page = productTypeService.selectPage(page);
             return new PageList<ProductType>(page.getTotal(),page.getRecords());
     }
-    @RequestMapping(value = "/treeData",method = RequestMethod.POST)
+    @RequestMapping(value = "/treeData",method = RequestMethod.GET)
     public List<ProductType> treeData()
     {
-        //Page<ProductType> page = new Page<ProductType>(query.getPage(),query.getRows());
-        //    page = productTypeService.selectPage(page);
-        //    return new PageList<ProductType>(page.getTotal(),page.getRecords());
         return productTypeService.treeData();
     }
     @RequestMapping(value = "/treeDataLoop",method = RequestMethod.POST)

@@ -42,7 +42,7 @@ public class BrandController {
     * @return
     */
     @RequestMapping(value="/delete/{id}",method=RequestMethod.DELETE)
-    public AjaxResult delete(@PathVariable("id") Integer id){
+    public AjaxResult delete(@PathVariable("id") Long id){
         try {
             brandService.deleteById(id);
             return AjaxResult.me();
